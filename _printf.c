@@ -20,7 +20,7 @@ int _printf(const char *format, ...)
 		if (format[i] == '%')
 		{
 			i++; /* Move to the character after '%' */
-			
+
 			/* Call the handler function */
 			printed = handler_format(format[i], args);
 
