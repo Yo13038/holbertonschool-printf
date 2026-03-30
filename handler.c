@@ -43,6 +43,18 @@ int print_char(va_list args)
 	return (1);
 }
 /**
+ * print_int - affiche un entier
+ * @args: liste les arguments contenant un entier à afficher
+ *
+ * Return: Le nombre de caractère afficher.
+ */
+int print_int(va_list args)
+{
+	int num = va_arg(args, int);
+
+	return (print_number(num));
+}
+/**
  * handler_format - gère les specifiers de format
  * @specifier: le caractère après le '%'
  * @args: liste des arguments variadiques
@@ -59,7 +71,10 @@ int handler_format(char specifier, va_list args)
 			return (print_char(args));
 		case 's':       /** lis une chaîne de caractère */
 			return (print_string(args));
+		case 'd':		/** lis un en base décimal 10 */
+		case 'i':		/** lis un entier */
+			return (print_string(args));
 		default:
 			return (-1); /** Signale un specifier inconnu */
 	}
-	}
+}
