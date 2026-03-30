@@ -20,7 +20,7 @@ Si une aide se fait sentir sur le fonctionnement de cette commande se fait senti
 man ./man_3_printf.txt
 ```
 
-## 👀 Examples
+## 👀 Exemples
 Voici quelques exemple de la commande :
 ```
 int age = 24;
@@ -35,14 +35,14 @@ printf("J'ai %s ans\n", string);
 J'ai entre 20 et 30 ans
 ```
 
-## 📂 Files 
+## 📂 Fichiers
 - _printf.c -> Fonction principal de _printf 
 - print_char.c -> Fichier qui va servir à afficher chaque caractère
 - print_number.c -> Fichier permettant de traiter les nombres
 - handler.c -> Fichier qui traite les specifiers (%s, %%, %d...)
 - main.h -> Rassemble tous les prototypes de fonction utilisés
 
-## ℹ️ Requirements
+## ℹ️ Contraintes
 Pour ce projet nous n'avons eu le droit d'utiliser que certaine commande :
 - write
 - malloc 
@@ -52,6 +52,6 @@ Pour ce projet nous n'avons eu le droit d'utiliser que certaine commande :
 - va_copy
 - va_arg
 
-## ✍️ Authors
+## ✍️ Auteurs
 Yoann et Noham 
 C29 Holberton School Toulouse
