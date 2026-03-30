@@ -29,10 +29,12 @@ printf("J'ai %d ans\n", age);
 J'ai 24 ans
 ```
 ```
-char *string = "entre 20 et 30";
-printf("J'ai %s ans\n", string);
+char *string = "Mon sac est fait !";
+int age = 24;
+printf("J'ai %d ans !\n%s\n", age, string);
 -> compilation et execution
-J'ai entre 20 et 30 ans
+J'ai 24 ans !
+Mon sac est fait !
 ```
 
 ## 📂 Fichiers
