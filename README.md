@@ -78,6 +78,46 @@ Mon sac est fait !
 ```handler.c``` -> Fichier qui traite les specifiers (%s, %%, %d...)
 
 ```main.h``` -> Rassemble tous les prototypes de fonction utilisés
+<<<<<<< HEAD
+=======
+
+## 📄 Valgrind
+We know, thanks to the ```Valgrind``` tool, that the code does not contain any memory leaks.
+
+```
+root@2f2c7192fe18:/home/ubuntu/holbertonschool-printf# valgrind ./test
+==43711== Memcheck, a memory error detector
+==43711== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==43711== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==43711== Command: ./test
+==43711== 
+Let's try to printf a simple sentence.
+Let's try to printf a simple sentence.
+Length:[39, 39]
+Length:[39, 39]
+Negative:[-762534]
+Negative:[-762534]
+Unsigned:[%u]
+Unsigned:[2147484671]
+Unsigned octal:[%o]
+Unsigned octal:[20000001777]
+Unsigned hexadecimal:[%x, %X]
+Unsigned hexadecimal:[800003ff, 800003FF]
+Character:[H]
+Character:[H]
+String:[I am a string !]
+String:[I am a string !]
+==43711== 
+==43711== HEAP SUMMARY:
+==43711==     in use at exit: 0 bytes in 0 blocks
+==43711==   total heap usage: 1 allocs, 1 frees, 1,024 bytes allocated
+==43711== 
+==43711== All heap blocks were freed -- no leaks are possible
+==43711== 
+==43711== For lists of detected and suppressed errors, rerun with: -s
+==43711== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
+>>>>>>> Dev_Noham
 
 ## ℹ️ Requierments
 For this project we were only allowed to use certain commands:
@@ -100,7 +140,11 @@ You will found the flowchart below : \
 [Flowchart](https://i.postimg.cc/fyk6Jnbp/flowchart-printf.png)
 
 ## ✍️ Authors
+<<<<<<< HEAD
 [Yoann](https://github.com/Yo13038/)
 \
 [Noham](https://github.com/Yo13038/)
 C29 Holberton School Toulouse
+=======
+[Yoann](https://github.com/Yo13038/) and [Noham](https://github.com/Yo13038/) C29 Holberton School Toulouse.
+>>>>>>> Dev_Noham
