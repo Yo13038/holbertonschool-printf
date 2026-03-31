@@ -29,4 +29,4 @@ int print_number(int num)
 	count += write(1, &digit, 1);
 
 	return (count);
-}
+
