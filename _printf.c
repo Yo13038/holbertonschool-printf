@@ -38,7 +38,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			/* Print standard characters one by one */
+			/* Print standard character one by one */
 			count += write(1, &format[i], 1);
 		}
 		i++;
