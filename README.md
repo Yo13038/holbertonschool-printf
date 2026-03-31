@@ -78,8 +78,6 @@ Mon sac est fait !
 ```handler.c``` -> Fichier qui traite les specifiers (%s, %%, %d...)
 
 ```main.h``` -> Rassemble tous les prototypes de fonction utilisés
-<<<<<<< HEAD
-=======
 
 ## 📄 Valgrind
 We know, thanks to the ```Valgrind``` tool, that the code does not contain any memory leaks.
@@ -117,7 +115,6 @@ String:[I am a string !]
 ==43711== For lists of detected and suppressed errors, rerun with: -s
 ==43711== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
 ```
->>>>>>> Dev_Noham
 
 ## ℹ️ Requierments
 For this project we were only allowed to use certain commands:
