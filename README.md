@@ -140,11 +140,6 @@ You will found the flowchart below : \
 [Flowchart](https://i.postimg.cc/fyk6Jnbp/flowchart-printf.png)
 
 ## ✍️ Authors
-<<<<<<< HEAD
 [Yoann](https://github.com/Yo13038/)
-\
 [Noham](https://github.com/Yo13038/)
 C29 Holberton School Toulouse
-=======
-[Yoann](https://github.com/Yo13038/) and [Noham](https://github.com/Yo13038/) C29 Holberton School Toulouse.
->>>>>>> Dev_Noham
