@@ -73,7 +73,7 @@ int handler_format(char specifier, va_list args)
 			return (print_string(args));
 		case 'd':		/** lis un en base décimal 10 */
 		case 'i':		/** lis un entier */
-			return (print_string(args));
+			return (print_int(args));
 		default:
 			return (-1); /** Signale un specifier inconnu */
 	}
