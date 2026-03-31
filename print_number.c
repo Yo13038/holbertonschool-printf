@@ -20,7 +20,7 @@ int print_number(int num)
 	else
 		n = num;
 
-	/* 2. go to the next digit to the left recursive way */
+	/* 2. Go to the next digit to the left recursive way */
 	if (n / 10)
 		count += print_number(n / 10);
 
