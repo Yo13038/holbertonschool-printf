@@ -4,24 +4,25 @@
 
 
 ##  📋 Description
-_printf est un exercice Holberton School que nous avons dû faire dans un délai de 15 jours en binome.
-Ce projet à pour but de reproduire la commande printf en C, en traitant les cas suivant : %s, %c, %%, %d, %i et également les cas d'erreurs.
+_printf is a Holberton School assignment that we had to complete in pairs within 15 days.
+This project aims to reproduce the printf command in C, handling the following cases: %s, %c, %%, %d, %i, and also error cases.
 ##  ⚙️ Prototype
 ```
 int _printf(const char *format, ...);
 ```
 ## 🧑🏽‍💻 Usage
-Pour utiliser cette commande il suffit de compiler avec ce compilateur :
+
+To use this command, simply compile with this compiler:
 ```
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
-Si une aide se fait sentir sur le fonctionnement de cette commande se fait sentir, tapez cette commande dans le terminal pour ouvrir le manuel : 
+If you need help understanding how this command works, type this command in the terminal to open the manual:
 ```
 man ./man_3_printf.txt
 ```
 
-## 👀 Exemples
-Voici quelques exemple de la commande :
+## 👀 Examples
+Here are some examples of the command:
 ```
 int age = 24;
 printf("J'ai %d ans\n", age);
@@ -37,15 +38,15 @@ J'ai 24 ans !
 Mon sac est fait !
 ```
 
-## 📂 Fichiers
-- _printf.c -> Fonction principal de _printf 
-- print_char.c -> Fichier qui va servir à afficher chaque caractère
-- print_number.c -> Fichier permettant de traiter les nombres
-- handler.c -> Fichier qui traite les specifiers (%s, %%, %d...)
-- main.h -> Rassemble tous les prototypes de fonction utilisés
+## 📂 Files
+- _printf.c -> Main function of _printf
+- print_char.c -> File used to print each character
+- print_number.c -> File used to process numbers
+- handler.c -> File that handles specifiers (%s, %%, %d...)
+- main.h -> Contains all the function prototypes used
 
-## ℹ️ Contraintes
-Pour ce projet nous n'avons eu le droit d'utiliser que certaine commande :
+## ℹ️ Requierments
+For this project we were only allowed to use certain commands:
 - write
 - malloc 
 - free
@@ -54,6 +55,6 @@ Pour ce projet nous n'avons eu le droit d'utiliser que certaine commande :
 - va_copy
 - va_arg
 
-## ✍️ Auteurs
-Yoann et Noham 
+## ✍️ Authors
+Yoann and Noham 
 C29 Holberton School Toulouse
