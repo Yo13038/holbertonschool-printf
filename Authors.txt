@@ -1,0 +1,20 @@
+👨‍💻 Authors
+
+this project was made in between the 2026 March 19 and the 2026 April 05.
+
+Developers:
+
+-Noham Oulma Holberton school student C-29 - Toulouse - France
+
+-Yoann Lages Holberton school student C-29 - Toulouse - France
+
+Special thanks to:
+
+Adam Zouaoui - Holberton student school C-29 - Toulouse 6 France
+
+Jarod Lange - Parain at Holberton school - Toulouse - France -
+
+Sofian Messaoui - software engineer intern - Holberton school - Toulouse - France
+
+Hugo Chilemme - Software engineer in Holberton School - Toulouse - France
+
